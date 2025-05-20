@@ -1,0 +1,147 @@
+/* background: linear-gradient(to right, red, blue); */
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:linear-gradient(to right, #9605EA , #46026E);
+}
+
+.container{
+      width: 1170px;
+      margin: 0 auto;
+    
+}
+
+
+.mainscreen{
+    width:700px;
+    padding:100px 35px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    /* padding:50px 100px 35px; */
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #24469A, #2FA7B5);
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+.review{
+    
+    margin-bottom: 25px;
+    font-size: 38px;
+    font-weight: 600;
+    background: linear-gradient(to right, #FFF, hsla(0, 99%, 73%, 0.908));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#review_box{
+    border-radius: 18px;
+    background: #84a1bb;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    resize: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+
+
+  .Btn{
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 383px;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #FFF;
+    cursor: pointer;
+    background: linear-gradient(to bottom, hsla(0, 99%, 73%, 0.637), #46026E);
+  }
+
+   .resetBtn{
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #FFF;
+    cursor: pointer;
+    background: linear-gradient(to bottom, hsla(0, 99%, 73%, 0.637), #46026E);
+   }
+
+
+   /* delet page */
+
+
+   #secondScreen{
+    padding-left: 150px;
+    margin-top: 200px;
+    display: none;
+   
+   }
+   #paragraph{
+    margin-bottom: 20px;
+    background: url('/image/bgimg.jpg');
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+   }
+   #inputDlt{
+    width: 550px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    padding:5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+   
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+   }
+
+   #inputDlt::placeholder{
+    color:white;
+   }
+
+   #deleteBtn{
+       padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 383px;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+   font-size: 22px;
+    color: #FFF;
+    cursor: pointer;
+    background: linear-gradient(to bottom, hsla(0, 99%, 73%, 0.637), #46026E);
+   }
+   #previous{
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFF;
+    cursor: pointer;
+    background: linear-gradient(to bottom, hsla(0, 99%, 73%, 0.637), #46026E);
+   }
